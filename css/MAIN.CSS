@@ -1,0 +1,85 @@
+p{
+			color: #32a86e;
+			font-family: helvetica ;
+			font-size: 2em;
+/*siddhant*/ font-style: italic;
+width: 15em;
+height: 400px;
+margin: 35px 20px ;
+padding: 2em 3em 	;
+border: 28px outset red;
+border-radius: 100px;
+border-top : 2px dotted blue;
+background-color: #fff;
+		}
+body{
+	/* background : bg-color bg-image position/bg-size bg-repeat bg-attachment */
+	
+	background: #fff url('../dreamcar.jpg') center/cover no-repeat fixed;
+}
+div{
+	
+	border: 2px outset blue ;
+    background: #fff ;
+    width: 15em;
+	height: 400px;
+	display: inline;
+}
+span{
+ background: #fff ;
+
+}
+/*class*/
+.green{
+	color: blue;
+}
+
+.red{
+	color: red;
+}
+
+/*id*/
+#red{
+	color:blue;
+}
+/*children call*/
+p.green span{
+	color: magenta;
+}
+/*pseudo claas */
+p:hover{
+	color: red;
+}
+a:hover{
+	color: red;
+}
+a:active{
+	color: yellow;
+}
+a:visited{
+	color: green;
+}
+/*pseudo element*/
+p::before{
+	content: ".";
+
+}
+
+.float{
+	float: left;
+	border-radius: 50%;      /*making the photograph look cicular*/
+	/*border-top-left-radius:;
+	border-down-radius:;*/
+}
+ul{
+	list-style-type: decimal-leading-zero;
+	list-style-position: outside;
+	list
+}
+/*linear gradient*/
+.grad{
+	color: blue;
+	width: 50%;
+	border :4px solid red;
+background: linear-gradient(to bottom right , #FF33A2, yellow)
+}
